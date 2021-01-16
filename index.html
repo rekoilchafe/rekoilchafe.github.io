@@ -13,7 +13,30 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
+		<!-- Load Facebook SDK for JavaScript -->
+		      <div id="fb-root"></div>
+		      <script>
+		        window.fbAsyncInit = function() {
+		          FB.init({
+		            xfbml            : true,
+		            version          : 'v9.0'
+		          });
+		        };
 
+		        (function(d, s, id) {
+		        var js, fjs = d.getElementsByTagName(s)[0];
+		        if (d.getElementById(id)) return;
+		        js = d.createElement(s); js.id = id;
+		        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+		        fjs.parentNode.insertBefore(js, fjs);
+		      }(document, 'script', 'facebook-jssdk'));</script>
+
+		      <!-- Your Chat Plugin code -->
+		      <div class="fb-customerchat"
+		        attribution=setup_tool
+		        page_id="114201206988655"
+		  theme_color="#7646ff">
+		      </div>
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
@@ -56,7 +79,7 @@
 									<a href="#" class="image"><img src="images/pic01.gif" alt="" /></a>
 									<div class="content">
 										<h2 class="major">AUDIO SERVICES</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
+										<p></p>
 										<a href="#" class="special">Learn more</a>
 									</div>
 								</div>
@@ -68,7 +91,7 @@
 									<a href="#" class="image"><img src="images/pic02.gif" alt="" /></a>
 									<div class="content">
 										<h2 class="major">VIDEO SERVICES</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
+										<p></p>
 										<a href="#" class="special">Learn more</a>
 									</div>
 								</div>
@@ -80,7 +103,7 @@
 									<a href="#" class="image"><img src="images/pic03.gif" alt="" /></a>
 									<div class="content">
 										<h2 class="major">PHOTOGRAPHY SERVICES</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
+										<p></p>
 										<a href="#" class="special">Learn more</a>
 									</div>
 								</div>
