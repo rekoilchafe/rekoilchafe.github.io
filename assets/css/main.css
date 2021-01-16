@@ -3756,23 +3756,23 @@ input, select, textarea {
 				box-shadow: inset 0 -1px 0 0 #555867, 0 1px 0 0 #555867;
 			}
 
-		.wrapper. {
+		.wrapper.spotlight {
 			background-color: #5cb58f;
 		}
 
-			.wrapper.:before, .wrapper.:after {
+			.wrapper.spotlight:before, .wrapper.spotlight:after {
 				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234c5c96%3B' /%3E%3C/svg%3E");
 			}
 
-			.wrapper.:before {
+			.wrapper.spotlight:before {
 				box-shadow: inset 0 -1px 0 0 #5cb58f, 0 1px 0 0 #5cb58f;
 			}
 
-			.wrapper.:after {
+			.wrapper.spotlight:after {
 				box-shadow: inset 0 -1px 0 0 #5cb58f, 0 1px 0 0 #5cb58f;
 			}
 
-			.wrapper. .inner {
+			.wrapper.spotlight .inner {
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
@@ -3787,7 +3787,7 @@ input, select, textarea {
 				flex-direction: row;
 			}
 
-			.wrapper. .image {
+			.wrapper.spotlight .image {
 				border-radius: 100%;
 				margin: 0 3em 2em 0;
 				width: 22em;
@@ -3795,17 +3795,17 @@ input, select, textarea {
 				-ms-flex: 1;
 			}
 
-				.wrapper. .image img {
+				.wrapper.spotlight .image img {
 					border-radius: 100%;
 					width: 100%;
 				}
 
-			.wrapper. .content {
+			.wrapper.spotlight .content {
 				width: 100%;
 				-ms-flex: 2;
 			}
 
-			.wrapper.:nth-child(2n - 1) .inner {
+			.wrapper.spotlight:nth-child(2n - 1) .inner {
 				-moz-flex-direction: row-reverse;
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
@@ -3813,87 +3813,87 @@ input, select, textarea {
 				text-align: right;
 			}
 
-			.wrapper.:nth-child(2n - 1) .image {
+			.wrapper.spotlight:nth-child(2n - 1) .image {
 				margin: 0 0 2em 3em;
 			}
 
-			.wrapper..style2 {
+			.wrapper.spotlight.style2 {
 				background-color: #45558d;
 			}
 
-				.wrapper..style2:before, .wrapper..style2:after {
+				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
 					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2345558d%3B' /%3E%3C/svg%3E");
 				}
 
-				.wrapper..style2:before {
+				.wrapper.spotlight.style2:before {
 					box-shadow: inset 0 -1px 0 0 #45558d, 0 1px 0 0 #45558d;
 				}
 
-				.wrapper..style2:after {
+				.wrapper.spotlight.style2:after {
 					box-shadow: inset 0 -1px 0 0 #45558d, 0 1px 0 0 #45558d;
 				}
 
-			.wrapper..style3 {
+			.wrapper.spotlight.style3 {
 				background-color: #3f4e85;
 			}
 
-				.wrapper..style3:before, .wrapper..style3:after {
+				.wrapper.spotlight.style3:before, .wrapper.spotlight.style3:after {
 					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233f4e85%3B' /%3E%3C/svg%3E");
 				}
 
-				.wrapper..style3:before {
+				.wrapper.spotlight.style3:before {
 					box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
 				}
 
-				.wrapper..style3:after {
+				.wrapper.spotlight.style3:after {
 					box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
 				}
 
-			.wrapper..style4 {
+			.wrapper.spotlight.style4 {
 				background-color: #39477c;
 			}
 
-				.wrapper..style4:before, .wrapper..style4:after {
+				.wrapper.spotlight.style4:before, .wrapper.spotlight.style4:after {
 					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2339477c%3B' /%3E%3C/svg%3E");
 				}
 
-				.wrapper..style4:before {
+				.wrapper.spotlight.style4:before {
 					box-shadow: inset 0 -1px 0 0 #39477c, 0 1px 0 0 #39477c;
 				}
 
-				.wrapper..style4:after {
+				.wrapper.spotlight.style4:after {
 					box-shadow: inset 0 -1px 0 0 #39477c, 0 1px 0 0 #39477c;
 				}
 
-			.wrapper..style5 {
+			.wrapper.spotlight.style5 {
 				background-color: #324072;
 			}
 
-				.wrapper..style5:before, .wrapper..style5:after {
+				.wrapper.spotlight.style5:before, .wrapper.spotlight.style5:after {
 					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23324072%3B' /%3E%3C/svg%3E");
 				}
 
-				.wrapper..style5:before {
+				.wrapper.spotlight.style5:before {
 					box-shadow: inset 0 -1px 0 0 #324072, 0 1px 0 0 #324072;
 				}
 
-				.wrapper..style5:after {
+				.wrapper.spotlight.style5:after {
 					box-shadow: inset 0 -1px 0 0 #324072, 0 1px 0 0 #324072;
 				}
 
-			.wrapper..style6 {
+			.wrapper.spotlight.style6 {
 				background-color: #2d3a69;
 			}
 
-				.wrapper..style6:before, .wrapper..style6:after {
+				.wrapper.spotlight.style6:before, .wrapper.spotlight.style6:after {
 					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232d3a69%3B' /%3E%3C/svg%3E");
 				}
 
-				.wrapper..style6:before {
+				.wrapper.spotlight.style6:before {
 					box-shadow: inset 0 -1px 0 0 #2d3a69, 0 1px 0 0 #2d3a69;
 				}
 
-				.wrapper..style6:after {
+				.wrapper.spotlight.style6:after {
 					box-shadow: inset 0 -1px 0 0 #2d3a69, 0 1px 0 0 #2d3a69;
 				}
 
@@ -3921,12 +3921,12 @@ input, select, textarea {
 					width: 100%;
 				}
 
-				.wrapper. .image {
+				.wrapper.spotlight .image {
 					margin: 0 2em 2em 0;
 					width: 32em;
 				}
 
-				.wrapper.:nth-child(2n - 1) .image {
+				.wrapper.spotlight:nth-child(2n - 1) .image {
 					margin: 0 0 2em 2em;
 				}
 
@@ -3955,19 +3955,19 @@ input, select, textarea {
 					padding: 2em 2em 0.1em 2em ;
 				}
 
-				.wrapper. .inner {
+				.wrapper.spotlight .inner {
 					-moz-align-items: -moz-flex-start;
 					-webkit-align-items: -webkit-flex-start;
 					-ms-align-items: -ms-flex-start;
 					align-items: flex-start;
 				}
 
-				.wrapper. .image {
+				.wrapper.spotlight .image {
 					width: 19em;
 					margin: 0 1.75em 2em 0;
 				}
 
-				.wrapper.:nth-child(2n - 1) .image {
+				.wrapper.spotlight:nth-child(2n - 1) .image {
 					margin: 0 0 2em 1.75em;
 				}
 
@@ -3975,11 +3975,11 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
-			.wrapper. .inner {
+			.wrapper.spotlight .inner {
 				display: block;
 			}
 
-			.wrapper. .image {
+			.wrapper.spotlight .image {
 				margin: 0 0 1em 0 !important;
 				max-width: 85%;
 				width: 12em;
